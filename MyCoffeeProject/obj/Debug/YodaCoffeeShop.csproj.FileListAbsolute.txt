@@ -1,0 +1,3 @@
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\bin\Debug\MyCoffeeProject.exe.config
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.exe
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.pdb
