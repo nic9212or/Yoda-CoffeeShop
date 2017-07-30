@@ -13,7 +13,7 @@ namespace MyCoffeeProject.Classes
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         //public string favCoffee { get; set; }
-
+        //test
         private string _favCoffee;
 
         public string FavCoffee
