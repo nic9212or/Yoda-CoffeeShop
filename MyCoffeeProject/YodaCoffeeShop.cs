@@ -16,6 +16,7 @@ namespace MyCoffeeProject
     public partial class YodaCoffeeShop : Form, IHello
     {
        // 'public List<Customer> YodaCustomerList = new List<Customer>;
+       //added git
         ArrayList yodaCustomerList = new ArrayList();
         ArrayList coffeesOrdered = new ArrayList();
         public YodaCoffeeShop()
@@ -43,7 +44,6 @@ namespace MyCoffeeProject
 
             //add customer to list
             yodaCustomerList.Add(YodasCustomer);
-
             
         }
 
@@ -92,7 +92,7 @@ namespace MyCoffeeProject
 
             var buttons = this.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked);
 
-            string coffeeType;
+            string  coffeeType;
             string iceamt = "normal";
             string size;
 
@@ -168,6 +168,6 @@ namespace MyCoffeeProject
         {
             Console.WriteLine("Yoda says Hello");
         }
-   
+   //Here is a comment
     }
 }
