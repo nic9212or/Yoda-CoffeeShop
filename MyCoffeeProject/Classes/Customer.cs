@@ -91,7 +91,7 @@ namespace MyCoffeeProject.Classes
         }
         public string DisplayCustomer()
         {
-            return this.Firstname + " " + this.Lastname + " " + " Phone Number: " + this.phoneNumber + Environment.NewLine + "Favorite Coffee: " + this.favCoffee;
+            return this.Firstname + " " + this.Lastname + " " + " Phone Number: " + this.phoneNumber + Environment.NewLine + "Favorite Coffee: " + this._favCoffee;
         }
         public string GetFullName()
         {
