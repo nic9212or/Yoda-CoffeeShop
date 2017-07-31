@@ -13,7 +13,7 @@ namespace MyCoffeeProject.Classes
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         //public string favCoffee { get; set; }
-
+        //test
         private string _favCoffee;
 
         public string FavCoffee
@@ -91,7 +91,7 @@ namespace MyCoffeeProject.Classes
         }
         public string DisplayCustomer()
         {
-            return this.Firstname + " " + this.Lastname + " " + " Phone Number: " + this.phoneNumber + Environment.NewLine + "Favorite Coffee: " + this.favCoffee;
+            return this.Firstname + " " + this.Lastname + " " + " Phone Number: " + this.phoneNumber + Environment.NewLine + "Favorite Coffee: " + this._favCoffee;
         }
         public string GetFullName()
         {
