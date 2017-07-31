@@ -44,6 +44,7 @@ namespace MyCoffeeProject
 
         //    //add customer to list
         //    yodaCustomerList.Add(YodasCustomer);
+        
             
         //}
 
@@ -56,7 +57,7 @@ namespace MyCoffeeProject
             }
            
         }
-
+        //clear button click
         private void clearBtn_Click(object sender, EventArgs e)
         {
             ClearAll();
