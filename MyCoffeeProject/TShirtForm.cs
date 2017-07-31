@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,14 @@ namespace MyCoffeeProject
         public TShirtForm()
         {
             InitializeComponent();
+
+            ArrayList tShirtList = new ArrayList();
+
+            //Customer YodasCustomer = new Customer(fNametextBox.Text, lastNametextBox.Text, phoneNumtextBox.Text, favCoffeeTxtBox.Text);
+            TShirts yodaShirt = new TShirts("Yoda", "Green", "Large");
+            tShirtList.Add(yodaShirt);
+
+            comboBoxTShirts.Items.Add(tShirtList.ToString());
         }
     }
 }

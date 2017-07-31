@@ -9,3 +9,10 @@ C:\Users\traff\Source\Repos\Yoda-CoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeePr
 C:\Users\traff\Source\Repos\Yoda-CoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.Properties.Resources.resources
 C:\Users\traff\Source\Repos\Yoda-CoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.TShirtForm.resources
 C:\Users\traff\Source\Repos\Yoda-CoffeeShop\MyCoffeeProject\obj\Debug\YodaCoffeeShop.csproj.GenerateResource.Cache
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\bin\Debug\MyCoffeeProject.exe
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\bin\Debug\MyCoffeeProject.pdb
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\YodaCoffeeShop.csprojResolveAssemblyReference.cache
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.YodaCoffeeShop.resources
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.Properties.Resources.resources
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.TShirtForm.resources
+C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\YodaCoffeeShop.csproj.GenerateResource.Cache
