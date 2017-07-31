@@ -50,6 +50,8 @@
     <Compile Include="Classes\CoffeeDrinks.cs" />
     <Compile Include="Classes\Customer.cs" />
     <Compile Include="Classes\IHello.cs" />
+    <Compile Include="CoffeeCups.cs" />
+    <Compile Include="Fruit.cs" />
     <Compile Include="YodaCoffeeShop.cs">
       <SubType>Form</SubType>
     </Compile>
