@@ -25,27 +25,27 @@ namespace MyCoffeeProject
 
         }
 
-        private void saveCustBtn_Click(object sender, EventArgs e)
-        {
-            //TODO
-            //look into why i cant use a variable 
+        //private void saveCustBtn_Click(object sender, EventArgs e)
+        //{
+        //    //TODO
+        //    //look into why i cant use a variable 
 
-            //private string fName;
-            //private string lName;
-            //private string pNumber;
-            //private string fCoffee;
+        //    //private string fName;
+        //    //private string lName;
+        //    //private string pNumber;
+        //    //private string fCoffee;
 
-            //private string fName = fNametextBox.Text;
-            //string fName = fNametextBox.Text;
-            //string fName = fNametextBox.Text;
-            //string fName = fNametextBox.Text;
+        //    //private string fName = fNametextBox.Text;
+        //    //string fName = fNametextBox.Text;
+        //    //string fName = fNametextBox.Text;
+        //    //string fName = fNametextBox.Text;
 
-            Customer YodasCustomer = new Customer(fNametextBox.Text, lastNametextBox.Text, phoneNumtextBox.Text, favCoffeeTxtBox.Text );
+        //    Customer YodasCustomer = new Customer(fNametextBox.Text, lastNametextBox.Text, phoneNumtextBox.Text, favCoffeeTxtBox.Text );
 
-            //add customer to list
-            yodaCustomerList.Add(YodasCustomer);
+        //    //add customer to list
+        //    yodaCustomerList.Add(YodasCustomer);
             
-        }
+        //}
 
         private void displayCustBtn_Click(object sender, EventArgs e)
         {
