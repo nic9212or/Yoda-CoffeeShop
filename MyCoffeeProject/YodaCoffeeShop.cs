@@ -153,10 +153,7 @@ namespace MyCoffeeProject
                 ttlCoffeesLabel.Text = "Total:" + coffeesOrdered.Capacity.ToString();
             }
 
-           // CoffeeDrinks customersCoffee = new CoffeeDrinks();
-           //New commnent
-           //cvh
-           //gneioijhoi
+           // CoffeeDrinks customersCoffee = new CoffeeDrinks();     
         }
         #endregion
 
@@ -170,7 +167,6 @@ namespace MyCoffeeProject
         public void Hello()
         {
             Console.WriteLine("Yoda says Hello");
-        }
-   //Here is a comment
+        }  
     }
 }
