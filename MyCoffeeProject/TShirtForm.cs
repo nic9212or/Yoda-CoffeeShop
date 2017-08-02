@@ -17,6 +17,11 @@ namespace MyCoffeeProject
             InitializeComponent();
 
 
+
+
+          
+            TShirts yodaShirt = new TShirts("Yoda", "Green", "Large");
+            
         }
     }
 }
