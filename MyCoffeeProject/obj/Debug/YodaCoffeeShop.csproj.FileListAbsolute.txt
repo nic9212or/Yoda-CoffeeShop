@@ -16,3 +16,6 @@ C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProj
 C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.Properties.Resources.resources
 C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\MyCoffeeProject.TShirtForm.resources
 C:\Users\nic92\Documents\Visual Studio 2015\Projects\YodaCoffeeShop\MyCoffeeProject\obj\Debug\YodaCoffeeShop.csproj.GenerateResource.Cache
+C:\Users\traff\Source\Repos\Yoda-CoffeeShop2\MyCoffeeProject\bin\Debug\MyCoffeeProject.exe.config
+C:\Users\traff\Source\Repos\Yoda-CoffeeShop2\MyCoffeeProject\obj\Debug\MyCoffeeProject.exe
+C:\Users\traff\Source\Repos\Yoda-CoffeeShop2\MyCoffeeProject\obj\Debug\MyCoffeeProject.pdb
