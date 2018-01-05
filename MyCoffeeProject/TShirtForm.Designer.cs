@@ -30,6 +30,8 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBoxTShirts = new System.Windows.Forms.ComboBox();
+            this.lblSelected = new System.Windows.Forms.Label();
+            this.listBoxSelected = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,22 +47,42 @@
             // comboBoxTShirts
             // 
             this.comboBoxTShirts.FormattingEnabled = true;
-            this.comboBoxTShirts.Location = new System.Drawing.Point(91, 333);
+            this.comboBoxTShirts.Location = new System.Drawing.Point(43, 332);
             this.comboBoxTShirts.Name = "comboBoxTShirts";
-            this.comboBoxTShirts.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxTShirts.Size = new System.Drawing.Size(157, 21);
             this.comboBoxTShirts.TabIndex = 1;
+            // 
+            // lblSelected
+            // 
+            this.lblSelected.AutoSize = true;
+            this.lblSelected.Location = new System.Drawing.Point(269, 292);
+            this.lblSelected.Name = "lblSelected";
+            this.lblSelected.Size = new System.Drawing.Size(52, 13);
+            this.lblSelected.TabIndex = 2;
+            this.lblSelected.Text = "Selected:";
+            // 
+            // listBoxSelected
+            // 
+            this.listBoxSelected.FormattingEnabled = true;
+            this.listBoxSelected.Location = new System.Drawing.Point(272, 308);
+            this.listBoxSelected.Name = "listBoxSelected";
+            this.listBoxSelected.Size = new System.Drawing.Size(145, 121);
+            this.listBoxSelected.TabIndex = 3;
             // 
             // TShirtForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(566, 504);
+            this.Controls.Add(this.listBoxSelected);
+            this.Controls.Add(this.lblSelected);
             this.Controls.Add(this.comboBoxTShirts);
             this.Controls.Add(this.pictureBox1);
             this.Name = "TShirtForm";
             this.Text = "TShirtForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -68,5 +90,7 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBoxTShirts;
+        private System.Windows.Forms.Label lblSelected;
+        private System.Windows.Forms.ListBox listBoxSelected;
     }
 }

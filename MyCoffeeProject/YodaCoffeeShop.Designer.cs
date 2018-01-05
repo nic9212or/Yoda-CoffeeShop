@@ -59,6 +59,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ttHeaderlLabel = new System.Windows.Forms.Label();
             this.ttlCoffeesLabel = new System.Windows.Forms.Label();
+            this.lblCustomerHeader = new System.Windows.Forms.Label();
             this.coffeeDrinksGroupBox.SuspendLayout();
             this.sizeGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -349,11 +350,22 @@
             this.ttlCoffeesLabel.Size = new System.Drawing.Size(0, 13);
             this.ttlCoffeesLabel.TabIndex = 24;
             // 
-            // MyCoffeeProject
+            // lblCustomerHeader
+            // 
+            this.lblCustomerHeader.AutoSize = true;
+            this.lblCustomerHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomerHeader.Location = new System.Drawing.Point(95, 300);
+            this.lblCustomerHeader.Name = "lblCustomerHeader";
+            this.lblCustomerHeader.Size = new System.Drawing.Size(89, 17);
+            this.lblCustomerHeader.TabIndex = 25;
+            this.lblCustomerHeader.Text = "Customers:";
+            // 
+            // YodaCoffeeShop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 539);
+            this.Controls.Add(this.lblCustomerHeader);
             this.Controls.Add(this.ttlCoffeesLabel);
             this.Controls.Add(this.ttHeaderlLabel);
             this.Controls.Add(this.tShirtBtn);
@@ -379,7 +391,7 @@
             this.Controls.Add(this.enterLastNameLabel);
             this.Controls.Add(this.enterFNameLabel);
             this.Controls.Add(this.welcomeLabel);
-            this.Name = "MyCoffeeProject";
+            this.Name = "YodaCoffeeShop";
             this.Text = "MyCoffeeProject";
             this.coffeeDrinksGroupBox.ResumeLayout(false);
             this.coffeeDrinksGroupBox.PerformLayout();
@@ -424,6 +436,7 @@
         private System.Windows.Forms.Button tShirtBtn;
         private System.Windows.Forms.Label ttHeaderlLabel;
         private System.Windows.Forms.Label ttlCoffeesLabel;
+        private System.Windows.Forms.Label lblCustomerHeader;
     }
 }
 

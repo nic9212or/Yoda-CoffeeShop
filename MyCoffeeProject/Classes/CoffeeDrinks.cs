@@ -29,41 +29,7 @@ namespace MyCoffeeProject.Classes
         }
 
     }
-    #region Iced Latte
-    class IcedLatte : CoffeeDrinks
-    {
-        public string IceAmount { get; set; }
-        public string MilkAmount { get; set; }
-
-        //public override void calcPrice()  //Not nesseary as the coffee drinks dont need to have different ways to calculate
-        //{
-        //    RetailPrice = (price * storeFee);
-        //}
-        public IcedLatte(string siz, string brewTi, string iceAmt, string milkA, double pric)
-        {
-            size = siz;
-            brewTime = brewTi;
-            IceAmount = iceAmt;
-            MilkAmount = milkA;
-            price = pric;
-        }
-    }
-    #endregion
-
-    #region Iced Coffee
-    class IcedCoffee : CoffeeDrinks
-    {
-        public string IceAmount { get; set; }
-       
-        public IcedCoffee(string siz, string brewTi, string iceAmt, double pric)
-        {
-            size = siz;
-            brewTime = brewTi;
-            IceAmount = iceAmt;
-            price = pric;
-        }
-    }
-    #endregion
+   
     #region Hot Coffee
     class HotCoffee : CoffeeDrinks
     {
@@ -74,6 +40,10 @@ namespace MyCoffeeProject.Classes
             brewTime = brewTi;           
             price = pric;
         }
+        //public override void calcPrice()  //Not nesseary as the coffee drinks dont need to have different ways to calculate
+        //{
+        //    RetailPrice = (price * storeFee);
+        //}
     }
     #endregion
 

@@ -19,6 +19,10 @@ namespace MyCoffeeProject
             Color = c;
             Size = s;
         }
+        public string DisplayTShirt()
+        {
+            return "Design: " + this.Design + " Size: " + this.Size + " " + "Color: " + this.Color;
+        }
     }
    
 }

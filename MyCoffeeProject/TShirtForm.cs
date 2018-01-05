@@ -21,9 +21,10 @@ namespace MyCoffeeProject
 
             //Customer YodasCustomer = new Customer(fNametextBox.Text, lastNametextBox.Text, phoneNumtextBox.Text, favCoffeeTxtBox.Text);
             TShirts yodaShirt = new TShirts("Yoda", "Green", "Large");
-            tShirtList.Add(yodaShirt);
+            tShirtList.Add(yodaShirt.DisplayTShirt());
 
-            comboBoxTShirts.Items.Add(tShirtList.ToString());
+            comboBoxTShirts.Items.Add(yodaShirt.DisplayTShirt());
         }
+       
     }
 }

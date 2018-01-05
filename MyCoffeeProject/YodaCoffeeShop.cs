@@ -9,14 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Linq;
+using MyCoffeeProject.Classes.Derived_Coffee_Drinks; //becuase in folder need to import additonal folder
 
 namespace MyCoffeeProject
 {
 
-    public partial class YodaCoffeeShop : Form, IHello
+    public partial class YodaCoffeeShop : Form, IHello //need partial. WHY?
     {
        // 'public List<Customer> YodaCustomerList = new List<Customer>;
-       //added git
+      
         ArrayList yodaCustomerList = new ArrayList();
         ArrayList coffeesOrdered = new ArrayList();
         public YodaCoffeeShop()
@@ -49,12 +50,11 @@ namespace MyCoffeeProject
 
         private void displayCustBtn_Click(object sender, EventArgs e)
         {
-
-            foreach (Customer cust in yodaCustomerList){
-                outputListBox.Items.Add(cust.DisplayCustomer());
-                outPutLabel.Text = cust.DisplayCustomer();
-            }
-           
+            foreach (Customer cust in yodaCustomerList)
+            {
+                outputListBox.Items.Add(cust.DisplayCustomer()); //add customer obj in string form
+                outPutLabel.Text = cust.DisplayCustomer();//display the customer object as string form
+            }           
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
@@ -148,7 +148,7 @@ namespace MyCoffeeProject
                 priceLabel.Text = "Price: " + custsCoffee.price.ToString("C2");
 
                 //Add object to list
-                coffeesOrdered.Add(custsCoffee);
+                coffeesOrdered.Add(custsCoffee); //TODO wrong
                 //Count total
                 ttlCoffeesLabel.Text = "Total:" + coffeesOrdered.Capacity.ToString();
             }
@@ -160,7 +160,7 @@ namespace MyCoffeeProject
         private void tShirtBtn_Click(object sender, EventArgs e)
         {
             TShirtForm form = new TShirtForm();
-            form.Show();
+            form.Show();  //show t-shirt form
         }
 
         //need to define and use the hello () because I impllement the interface at top of the program

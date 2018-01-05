@@ -21,11 +21,7 @@ namespace MyCoffeeProject.Classes
             set { coffeeBrand = value; }
 
         }
-
-      
-
-
-
+     
         // default constructor
         public Coffee()
         {
